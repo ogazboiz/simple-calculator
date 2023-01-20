@@ -29,6 +29,9 @@ body {
   letter-spacing: 3px;
   text-transform: capitalize;
 }
+hr {
+  display: none;
+}
 input[type='number'] {
   border: 1px solid black;
   padding: 5px;
@@ -61,4 +64,50 @@ footer span {
   font-size: large;
   font-weight: bolder;
   color: black;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    position: relative;
+    width: 250px;
+  }
+  .container {
+    position: absolute;
+    height: 310px;
+    top: 50%;
+    margin-top: 155px;
+    width: 100%;
+    margin-right: auto;
+
+    margin-left: auto;
+  }
+  hr {
+    display: block;
+    margin: 0.5rem 0px;
+    background: black;
+  }
+  input[type='number'] {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px auto;
+    width: 50%;
+    text-align: center;
+  }
+  .container > div > .result {
+    width: 90%;
+  }
+  br {
+    display: none;
+  }
+  .input {
+    margin-bottom: 0.5rem;
+  }
+  button {
+    padding: 7px 9px;
+    margin: 0 3px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: larger;
+  }
 }

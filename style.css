@@ -36,10 +36,12 @@ input[type='number'] {
   width: 100%;
 }
 .container > div > .result {
+  text-align: end;
   align-items: center;
   width: 100%;
   background-color: cornflowerblue;
   color: black;
+  font-weight: 700;
 }
 button {
   padding: 15px 20px;
@@ -48,4 +50,15 @@ button {
   color: white;
   text-align: center;
   font-size: larger;
+}
+footer {
+  padding-top: 10px;
+  color: blue;
+  font-size: 16px;
+  margin-bottom: 0.4rem;
+}
+footer span {
+  font-size: large;
+  font-weight: bolder;
+  color: black;
 }

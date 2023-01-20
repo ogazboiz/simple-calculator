@@ -1,0 +1,7 @@
+one small project for javascript beginners 
+create a simple calculator
+
+sub problem
+* user should input two numbers (done✔)
+* it should select operation and using button on the page  (done✔)
+* result should display on the page (done✔)
